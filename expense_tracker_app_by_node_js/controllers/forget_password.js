@@ -37,7 +37,7 @@ const sendEmail = async (req, res) => {
             <body>
                 <h1>Reset Your Password</h1>
                 <p>Click the button below to reset your password:</p>
-                <button><a href="http://localhost:8000/password/resetpassword/{{params.role}}">Reset Password</a></button>
+                <button><a href="http://54.252.183.134:8000/password/resetpassword/{{params.role}}">Reset Password</a></button>
             </body>
             </html>`, params: {
                 role: id

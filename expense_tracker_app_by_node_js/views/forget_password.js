@@ -7,5 +7,5 @@ function forgetPassword(e){
     let user={
         "email": document.querySelector('.u_email').value
     }
-    axios.post('http://localhost:8000/password/forgotpassword',user)
+    axios.post('http://54.252.183.134:8000/password/forgotpassword',user)
 }
